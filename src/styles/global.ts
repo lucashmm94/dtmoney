@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components' //Para usar css dentro do 
 export const GlobalStyle = createGlobalStyle`
 
   :root {
-    --background: #f0f2f5;  // cor definida no figma
+    --background: #DCDCDC;  // cor definida no figma
     --red: #E52E40;
     --blue: #5429CC;
     --green: #33CC95;

@@ -8,10 +8,14 @@ export const Container = styled.div`
 
   div {
     background: var(--shape);
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 2rem; //1.5rem cimabaixo / 2rem laterais
     border-radius:0.25rem;
     color: var(--text-title);
 
+    &.highlight-background {
+      background: var(--green);
+      
+    }
 
     header {
       display:flex;
@@ -28,10 +32,7 @@ export const Container = styled.div`
       line-height: 3rem;
     }
 
-    &.highlight-background {
-      background: var(--green);
-      
-    }
+   
   }
 
 

@@ -44,7 +44,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400; //Por padrão é 500 a fonte regular do html, ai precisa definir
   }
 
-  button{
+  button {
     cursor: pointer; //para deixar o botão clicável
   }
 
